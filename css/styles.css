@@ -1,0 +1,48 @@
+/*************************TAG SELECTOR*************************/
+body {
+    background-color: #3C6255;
+    color: #EAE7B1;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #61876E;
+    border-width: 5px;
+    width: 10%;
+}
+h1 {
+    color: #A6BB8D;
+}
+h3 {
+    color: #A6BB8D;
+}
+a {
+    color: #7994c799;
+}
+
+/* pesudo classes, for instance: change color when hovered over. */
+a:hover {
+    color: #7994c7;
+}
+
+/*************************CLASS SELECTOR*************************/
+/* just name an element with class="some_name" and call that name by adding dot: .some_name {...}
+   you can have more than 1 class for same html element, separeted by a spacebar
+
+.contact {
+    color: #4b2715;
+}
+*/
+.circular {
+    border-radius: 100%;
+}
+
+/*************************ID SELECTOR*************************/
+/* both class and id have priority over ordinary tag selectors
+#provide {
+    color: #4b2715;
+}
+*/
+#link {
+    font-weight: bold;
+}
