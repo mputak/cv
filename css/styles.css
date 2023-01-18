@@ -4,15 +4,14 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive; */
 
 .top-container {
-    background-color: #FBFACD;
+    background-color: #8d8c8d;
     position: relative;
     padding-top: 100px;
-
 }
 .mountain {
 }
 body {
-    background-color: #d7e4ab;
+    background-color: #f4f2f4;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -22,22 +21,26 @@ h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
-    color: #BA94D1;
+    color: #f4f2f4;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #BA94D1;
+    color: #a665eb;
     font-weight: normal;
+}
+.a-ml {
+    color: #f4f2f4;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #7F669D;
+    color: #877c73;
     font-size: 1.5rem;
 }
 p {
     line-height: 2;
     font-size: 1rem;
+    color: #8d8c8d;
 }
 .profile-pic{
     margin-top: 100px;
@@ -48,6 +51,7 @@ hr {
     width: 10%;
     border-width: 10px;
     margin: 100px auto;
+    color: #877c73;
 }
 a {
     color: #7F669D;
@@ -55,10 +59,10 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #5e517e;
+    color: #dbd7db;
 }
 .bottom-container {
-    background-color: #FBFACD;
+    background-color: #8d8c8d;
     margin-top: 30px;
     padding: 50px 0 20px;
 }
@@ -94,36 +98,27 @@ a:hover {
 }
 .footer-link{
     padding: 20px;
+    color: #f4f2f4;
 }
 .copyright {
-    color: #5e517e;
+    color: #f4f2f4;
     font-size: 0.75rem;
     padding: 20px 0;
 }
 .btn {
-  background: #7F669D;
-  background-image: -webkit-linear-gradient(top, #7F669D, #a357ff);
-  background-image: -moz-linear-gradient(top, #7F669D, #a357ff);
-  background-image: -ms-linear-gradient(top, #7F669D, #a357ff);
-  background-image: -o-linear-gradient(top, #7F669D, #a357ff);
-  background-image: linear-gradient(to bottom, #7F669D, #a357ff);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
   font-family: Arial;
-  color: #eaed3d;
+  color: #f4f2f4;
   font-size: 20px;
+  background: #877c73;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #000000;
-  background-image: -webkit-linear-gradient(top, #000000, #7F669D);
-  background-image: -moz-linear-gradient(top, #000000, #7F669D);
-  background-image: -ms-linear-gradient(top, #000000, #7F669D);
-  background-image: -o-linear-gradient(top, #000000, #7F669D);
-  background-image: linear-gradient(to bottom, #000000, #7F669D);
+  background: #57504b;
   text-decoration: none;
 }
 .share {
