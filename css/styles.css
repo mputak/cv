@@ -7,8 +7,16 @@ font-family: 'Sacramento', cursive; */
     background-color: #8d8c8d;
     position: relative;
     padding-top: 100px;
+    height: 85.5vh;
 }
-.mountain {
+.chip {
+    width: 300px;
+    position:absolute;
+    top: 86%;
+    left:43%;
+    margin-top:-50px;
+    margin-left:-50px;
+
 }
 body {
     background-color: #f4f2f4;
@@ -43,7 +51,8 @@ p {
     color: #8d8c8d;
 }
 .profile-pic{
-    margin-top: 100px;
+    margin-top: 250px;
+    width: 180px;
 }
 hr {
     border-style: none;
@@ -71,6 +80,7 @@ a:hover {
     width: 50%;
     margin: 50px auto;
     text-align: left;
+    padding: 10px;
 }
 .code-img {
     width: 25%;
@@ -87,14 +97,16 @@ a:hover {
     position: absolute;
     top: 400px;
     left: 300px;
+    width: 120px;
 }
 .top-cloud {
     position: absolute;
     right: 200px;
-    top: 60px
+    top: 60px;
+    width: 100px;
 }
 .contact-me {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .footer-link{
     padding: 20px;
