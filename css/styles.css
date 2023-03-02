@@ -7,15 +7,13 @@ font-family: 'Sacramento', cursive; */
     background-color: #8d8c8d;
     position: relative;
     padding-top: 100px;
-    height: 85.5vh;
+    height: 100vh;
 }
 .chip {
     width: 300px;
     position:absolute;
-    top: 86%;
-    left:43%;
-    margin-top:-50px;
-    margin-left:-50px;
+    top: 81.7%;
+    left: 40%;
 
 }
 body {
@@ -27,7 +25,7 @@ body {
 }
 h1 {
     margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 24px; font-style: normal; font-variant: normal;
     font-size: 5.625rem;
     color: #f4f2f4;
 }
@@ -104,6 +102,9 @@ a:hover {
     right: 200px;
     top: 60px;
     width: 100px;
+}
+.in-text-link {
+    color: #a665eb;
 }
 .contact-me {
     margin-bottom: 70px;
